@@ -1,0 +1,93 @@
+
+.subtitle {
+    margin-bottom: 0;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #868e96;
+    font-weight: bold;
+}
+.text-primary {
+    color: #fb8c00 !important;
+}
+.text-block:first-of-type {
+    padding-top: 0;
+}
+.text-block {
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #e9ecef;
+}
+.text-sm {
+    font-size: .875rem;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #fc9600;
+    border-color: #fc9600;
+}
+.btn-primary:hover {
+	background-color: #fc9600;
+    border-color: #fc9600;
+}
+.form-block:last-of-type {
+    border-bottom: none;
+}
+
+.form-block {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    border-bottom: 1px solid #e9ecef;
+}
+.sticky-nav-right-100 {
+    top: 100px;
+}
+.text-muted {
+    color: #868e96 !important;
+}
+.orange-text {
+    color: orange !important;
+}
+.text-block:last-of-type {
+    margin-bottom: 0;
+    border-bottom: none;
+}
+.text-line-through {
+    text-decoration: line-through;
+}
+.opacity-8 {
+    opacity: .8;
+}
+.bg-gray-800 {
+    background: #343a40 !important;
+}
+.text-gray-300 {
+    color: #dee2e6;
+}
+.bg-gray-200 {
+    background: #e9ecef !important;
+}
+.btn-link:hover {
+	text-decoration: none;
+}
+.btn:focus {
+	box-shadow: none; ;
+	text-decoration: none;
+}
+ol, ul, dl {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    list-style: none;
+}
+.btn-outline-muted {
+    color: #868e96;
+    border-color: #868e96;
+}
+a:hover {
+	text-decoration: none;
+}
+.bg{
+    background-image: url('https://sports-club.cmsmasters.net/wp-content/uploads/2015/04/footer_lodyas1.png');
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-size: auto;
+}

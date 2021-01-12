@@ -1,0 +1,313 @@
+
+.bg-cover {
+    background-repeat: no-repeat;
+}
+.dark-overlay{
+    position: relative;
+    overflow: hidden;
+}
+.pt-7 {
+    padding-top: 8rem !important;
+}
+.align-items-end {
+    align-items: flex-end !important;
+}
+.dark-overlay::after{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: ' ';
+    opacity: .55;
+    background: #000;
+}
+.dropdown-menu>.dropdown-wrapper>.menu-right{
+    flex-flow:column nowrap;
+    text-align:center
+}
+.dark-overlay .overlay-content{
+    position: relative;
+    z-index: 20;
+}
+.orange-text {
+    color: orange !important;
+}
+.text-shadow {
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.1);
+}
+h1{
+    margin-bottom: .5rem;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 700;
+    line-height: 1.3;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #fc9600;
+    border-color: #fc9600;
+}
+.btn {
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.bg-gray-100 {
+    background: #f8f9fa !important;
+}
+.text-sm {
+    font-size: .875rem;
+}
+.subtitle {
+    margin-bottom: 0;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.text-primary {
+    color: #fb8c00 !important;
+}
+.seven-day-picker {
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+}
+.seven-day-picker__date {
+    margin: 2px;
+    padding-top: 3px;
+    line-height: 120%;
+    flex-grow: 1;
+    text-align: center;
+    cursor: pointer;
+    display: inline-block;
+    border: 1px solid transparent;
+    color: #3d348b;
+    border-color: #3d348b;
+    border-radius: 0.3em;
+}
+.seven-day-picker__date strong {
+    font-size: 13px;
+}
+.seven-day-picker__date span {
+    font-size: 12px;
+}
+.seven-day-picker a {
+    text-decoration: none;
+}
+.other-day {
+    border: 1px solid transparent;
+    color: #3d348b;
+    border-color: #3d348b;
+    border-radius: 0.3em;
+    margin-left: 5px;
+    text-align: center;
+    flex-grow: 1;
+}
+.other-day strong {
+    font-size: 13px;
+}
+.other-day input {
+    font-size: small;
+    height: 17px;
+    text-align: center;
+}
+.period-list {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: auto;
+    overflow-x: hidden;
+}
+
+@media (min-width: 768px) {
+
+	.period-list>li {
+	    position: relative;
+	    display: block;
+	    padding: 0px;
+	    overflow: hidden;
+	    min-height: 45px;
+	}
+}
+.period-list>li {
+    background-color: white;
+    padding: 0px;
+    margin: 0px 0px 20px;
+}
+.period-list>li>.asset_category {
+    color: white;
+    background-color: #fc9600;
+    text-align: center;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media (min-width: 768px) {
+	.period-list>li>.asset_category {
+    padding: 0px;
+    margin: 0px;
+    min-height: 45px;
+	} 
+}
+@media (min-width: 768px) {
+	.period-list>li>.info {
+    background-color: whitesmoke;
+    overflow: hidden;
+	} 
+}
+.period-list>li>.info {
+    padding-top: 5px;
+    text-align: center;
+}
+.period-list>li>.asset_category>.venue-type {
+    font-size: 20pt;
+    font-weight: 100;
+    line-height: 1;
+    text-align: center;
+}
+.period-list>li>.info .period-hour {
+    margin: 0px;
+    font-size: 20px;
+}
+@media (min-width: 768px) {
+	.period-list>li>.info>.period-hour {
+	    font-weight: 500;
+	    font-size: 30px;
+	    padding-top: 5px;
+	    min-height: 45px;
+	}
+}
+.row.fast-booking {
+    padding-top: 15px;
+    padding-bottom: 5px;
+    margin-bottom: 0px;
+}
+.fast-booking {
+    display: inline-block;
+}
+.fast-booking__btn {
+    text-align: center;
+    cursor: pointer;
+    display: inline-block;
+    margin-bottom: 4px;
+    width: 90px;
+}
+.btn-sm{
+    padding: .25rem .5rem;
+    font-size: .775rem;
+    line-height: 1.5;
+    border-radius: .2rem;
+}
+.btn-outline-primary {
+    color: #3d348b;
+    border-color: #3d348b;
+}
+.period-list>li:nth-child(even)>.asset_category {
+    background-color: #3d348b;
+}
+.period-list>li:last-child {
+    margin-bottom: 0px;
+}
+.btn-datsan {
+    background: linear-gradient(86deg, #3d348b, #4b7aff);
+    color: #fff !important;
+    animation: shake 0.2s;
+}
+.text-block {
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #e9ecef;
+}
+.icon-circle {
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    color: #fff;
+    border-radius: 50%;
+    font-size: .5rem;
+    line-height: 20px;
+}
+.review:last-of-type {
+    margin-bottom: 0;
+    border-bottom: none;
+}
+.text-block:last-of-type {
+    margin-bottom: 0;
+    border-bottom: none;
+}
+.review:first-of-type {
+    padding-top: 1rem;
+}
+.review {
+    padding-top: 2rem;
+    padding-right: 1rem;
+    padding-bottom: 2rem;
+    padding-left: 1rem;
+    border-bottom: 1px solid #e9ecef;
+}
+.avatar.avatar-xl {
+    width: 7rem;
+    height: 7rem;
+}
+.avatar {
+    display: inline-block;
+    position: relative;
+    width: 3rem;
+    height: 3rem;
+    text-align: center;
+    border: #dee2e6;
+    border-radius: 50%;
+    background: #fff;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.15);
+    line-height: 3rem;
+}
+.bg-gray-800 {
+    background: #343a40 !important;
+}
+.text-gray-300 {
+    color: #dee2e6;
+}
+.bg-gray-200 {
+    background: #e9ecef !important;
+}
+.calltoactions a:hover {
+	background-color: #fc9600;
+    border-color: #fc9600;
+}
+.calltoactions a:active {
+	background-color: #fc9600;
+    border-color: #fc9600;
+}
+.btn-outline-secondary {
+    color: orange;
+    border-color: orange;
+}
+.btn-outline-secondary:hover {
+	color: white;
+    border-color: orange;
+    background-color: orange;
+}
+.btn-outline-secondary:active {
+	color: orange;
+    border-color: orange;
+    background-color: white;
+}
+.text-secondary {
+    color: #ff9800 !important;
+}
+.seven-day-picker__date:hover {
+	background-color: #3d348b;
+	color: white;
+	padding: 0;
+}
+.active {
+	background-color: #3d348b;
+	color: white;
+}
+.bg{
+    background-image: url('https://sports-club.cmsmasters.net/wp-content/uploads/2015/04/footer_lodyas1.png');
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-size: auto;
+}

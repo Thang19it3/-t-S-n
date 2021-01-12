@@ -1,0 +1,330 @@
+*
+{
+	padding: 0;
+	margin: 0;
+	font-family: 'Oswald', sans-serif;
+}
+header
+{
+	position: relative;
+	max-width: 100%;
+	margin: 20px auto;
+	background: black;
+	box-sizing: border-box;
+	box-shadow: 0 2px 5px rgba(0,0,0,.2);
+}
+.logo img
+{
+	width: 70px;
+	height: 70px;
+	float: left;
+	margin-top: 10px;
+	margin-left: 100px;
+	margin-right: 50px;
+}
+nav
+{
+	margin-left: 50px;
+}
+.side
+{
+	float: right;
+	margin-top: -82px;
+	background: #fe5900;
+	padding: 17px 25px 17px 25px;
+}
+.clearfix
+{
+	clear: both;
+}
+nav ul
+{
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+nav ul li
+{
+	list-style: none;
+}
+nav ul li a
+{
+	display: block;
+	margin: 20px 0;
+	padding: 10px 20px;
+	text-decoration: none;
+	color: white;
+}
+nav ul li a:hover,
+nav ul li a.active
+{
+	background: #069370;
+	color: #fff;
+	transition: .5s;
+}
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1500;
+  top: 0;
+  right: 0;
+  background-color: white;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+.side-text
+{
+	margin-left: 120px;
+}
+.side-text h3
+{
+	font-weight: 900;
+}
+.side-text p
+{
+	font-weight: 300;
+}
+.side-text h5
+{
+	font-weight: 300;
+	margin-bottom: 20px;
+}
+.drop-btn 
+		{
+			position: absolute;
+			right: 8%;
+			top: 20px;
+			z-index: 3000;
+		}
+		.drop-btn .drops-btn
+		{
+			width: 120px;
+			background: #242526;
+			color: white;
+			line-height: 40px;
+			padding: 0 20px;
+			border-radius: 50px;
+			font-size: 20px;
+			font-weight: 500;
+		}
+		.drop-btn .drops-btn span
+		{
+			float: right;
+			line-height: 40px;
+			font-size: 28px;
+			cursor: pointer;
+		}
+		.drop-btn .wrapper
+		{
+			position: absolute;
+			display: flex;
+			width: 190px;
+			overflow: hidden;
+			top: 60px;
+			background: #242526;
+			border-radius: 5px;
+			display: none;
+		}
+		.drop-btn .wrapper.show
+		{
+			display: block;
+			display: flex;
+		}
+		.drop-btn .wrapper ul 
+		{
+			list-style: none;
+			width: 300px;
+			padding: 10px;
+		}
+		.drop-btn .wrapper ul  li
+		{
+			line-height: 55px;
+		}
+		.drop-btn .wrapper ul li a
+		{
+			position: relative;
+			text-decoration: none;
+			color: #b0b3b8;
+			display: flex;
+			font-weight: 500;
+			padding: 0 10px;
+			align-items: center;
+			border-radius: 8px;
+		}
+		.drop-btn .wrapper ul li:hover a
+		{
+			background: #3A3B3C;
+		}
+		.drop-btn .wrapper ul li a .icon
+		{
+			height: 40px;
+			width: 40px;
+			margin-right: 13px;
+			background: #ffffff1a;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			text-align: center;
+			border-radius: 50%;
+		}
+		.drop-btn .wrapper ul li a i
+		{
+			position: absolute;
+			right: 10px;
+			font-size: 25px;
+			pointer-events: none;
+		}
+/*-------------------------------------------slider----------------------------*/
+.container
+{
+	display: grid;
+	grid-template-columns: 850px 300px;
+}
+.tintuc-left
+{
+	
+}
+.tintuc-right
+{
+	
+}
+.tintuc-right .tintuc-right-search input
+{
+	width: 200px;
+	height: 50px;
+	border: none;
+}
+.tintuc-right .tintuc-right-search .fa-search
+{
+	position: relative;
+	left: -25px;
+}
+.tintuc-right .tintuc-right-theloai
+{
+	margin-top: 30px;
+	margin-bottom: 50px;
+}
+.tintuc-right .tintuc-right-theloai h4
+{
+	padding: 10px 10px 10px ;
+	background-color: #552085;
+	color: white;
+}
+.tintuc-right .tintuc-right-theloai ul
+{
+	margin-left: 0px;
+	list-style: none;
+}
+.tintuc-right .tintuc-right-theloai ul li
+{
+	line-height: 40px;
+	border-bottom: 1px solid black;
+}
+.tintuc-right .tintuc-right-theloai ul li a
+{
+	text-decoration: none;
+	margin-left: 40px;
+}
+
+.tintuc-right .tintuc-right-ngaythang
+{
+	margin-top: 30px;
+	margin-bottom: 50px;
+}
+.tintuc-right .tintuc-right-ngaythang h4
+{
+	padding: 10px 10px 10px ;
+	background-color: #552085;
+	color: white;
+}
+.tintuc-right .tintuc-right-ngaythang ul
+{
+	margin-left: 0px;
+	list-style: none;
+}
+.tintuc-right .tintuc-right-ngaythang ul li
+{
+	line-height: 40px;
+	border-bottom: 1px solid black;
+}
+.tintuc-right .tintuc-right-ngaythang ul li a
+{
+	text-decoration: none;
+	margin-left: 40px;
+}
+.tintuc-right .tintuc-right-tag
+{
+	margin-top: 30px;
+	margin-bottom: 50px;
+}
+.tintuc-right .tintuc-right-tag h4
+{
+	padding: 10px 10px 10px ;
+	background-color: #552085;
+	color: white;
+}
+.tintuc-right .tintuc-right-tag button
+{
+	border: 1px solid black;
+	margin-left: 20px;
+	margin-top: 20px;
+	background: none;
+	padding: 3px 3px 3px 3px;
+}
+.tintuc-right .tintuc-right-tag button:hover
+{
+	background-color: orange;
+	color: white;
+}
+
+.tintuc-right .tintuc-right-new
+{
+	margin-top: 30px;
+	margin-bottom: 50px;
+}
+.tintuc-right .tintuc-right-new h4
+{
+	padding: 10px 10px 10px ;
+	background-color: #552085;
+	color: white;
+}
+.tintuc-right .tintuc-right-new ul
+{
+	margin-left: 0px;
+	list-style: none;
+}
+.tintuc-right .tintuc-right-new ul li
+{
+	line-height: 40px;
+}
+.tintuc-right .tintuc-right-new ul li a
+{
+	text-decoration: none;
+	margin-left: 40px;
+}
+
+
+

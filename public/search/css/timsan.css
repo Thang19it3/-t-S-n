@@ -1,0 +1,190 @@
+
+.text-sm {
+    font-size: .875rem;
+}
+.display-none{
+    display:none
+}
+ .search-bar{
+    border-radius:10rem;
+    background:#fff;
+    box-shadow:0 0 1rem rgba(0,0,0,0.15)
+}
+.search-bar .form-group{
+    position:relative;
+    margin-bottom:0
+}
+ .search-bar .form-control{
+    height:calc(1.5em + 1rem + 2px)
+}
+@media (max-width: 991.98px){
+    .search-bar{
+        border-radius:20px
+    }
+    .search-bar .form-group{
+        margin-bottom:1rem
+    }
+ .search-bar .form-control{
+    padding:10px 20px;height:calc(1.6em + .75rem + 2px)
+    }
+}
+ .input-wrapper{
+    position:relative;
+    width:100%
+}
+ .search-filter{
+    width:100%
+}
+.filter-list{
+    display:flex !important;align-items:center
+}
+.filter-list__item{
+    position:relative;
+    flex-grow:1;
+    flex-basis:0
+}
+.filter-list__item__district{
+    width:50%
+}
+ .search-filter>ul>li.dropdown.show{
+    position:static
+}
+.search-filter>ul>li.dropdown.show .dropdown-menu{
+    border-radius:0px;
+    width:1000%;
+    left:0;
+    right:0
+}
+.dropdown-menu>.dropdown-wrapper>.menu-left{
+    border-right:1px solid #ddd;
+    display:inline-flex;
+    text-align:left;
+    width:80%
+}
+.dropdown-menu>.dropdown-wrapper>.menu-right{
+    flex-flow:column nowrap;
+    text-align:center
+}
+ ul {
+ 	list-style: none;
+ }
+ .filter-item{
+    border:none;
+    font-size:13px;
+    width:100%;
+    text-transform:none;
+    letter-spacing:normal;
+    text-align:left;
+    font-weight:normal;
+}
+.filter-item:hover{
+    background-color:#ced4da
+}
+.filter-item.dropdown-toggle::after{
+    text-align:right;
+    float:right
+}
+
+.venue-list {
+    padding: 0px;
+}
+.venue-item__wrapper {
+    display: flex;
+    width: 100%;
+}
+.venue-item__main {
+    display: flex;
+    width: 85%;
+    height: 140px;
+}
+.venue-item-actions {
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.venue-item-actions__wrapper {
+    border-left: 1px solid #ddd;
+    height: 75%;
+}
+.btn_type_primary {
+    min-width: 110px;
+}
+.btn-secondary{
+	color: #fff;
+    background-color: #fc9600;
+    border-color: #fc9600;
+}
+.venue-item-image {
+    width: 20%;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.venue-item-image img {
+    height: 100%;
+    max-width: 100%;
+    width: auto;
+}
+.venue-item-details {
+    order: 2;
+    width: 60%;
+}
+.venue-item__link {
+    text-decoration: none;
+}
+.venue-item__name {
+    font-size: 20px;
+    text-transform: uppercase;
+    color: orange;
+}
+.text-decoration-none {
+    text-decoration: none !important;
+    color: #3d348b;
+    background-color: transparent;
+}
+.bg-gray-200 {
+    background: #e9ecef !important;
+}
+.text-muted {
+    color: #868e96 !important;
+}
+.text-uppercase {
+    letter-spacing: 0.1em;
+}
+.bg-gray-800 {
+    background: #343a40 !important;
+}
+.text-gray-300 {
+    color: #dee2e6;
+}
+.search-bar .form-group::after {
+    display: block;
+    width: 1px;
+    height: 60%;
+    content: '';
+    background: #ddd;
+    position: absolute;
+    top: 20%;
+    right: 0;
+}
+.item-tag {
+    display: inline-flex;
+    background-color: orange;
+    border-radius: .4rem;
+    padding: 4px;
+}
+.dropdown-menu.show {
+    display: block;
+    z-index: 9999;
+}
+.bg{
+    background-image: url('https://sports-club.cmsmasters.net/wp-content/uploads/2015/04/footer_lodyas1.png');
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-size: auto;
+}
+
+
